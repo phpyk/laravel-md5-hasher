@@ -15,8 +15,11 @@
 使用：
 
 `
+
 $value = '123456';
+
 $hasher = new MD5Hasher();
+
 $hashValue = $hasher->make($value);
 
 `
